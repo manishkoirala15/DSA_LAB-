@@ -11,6 +11,7 @@ int main()
 { 
 int x, y; 
 printf("Enter two numbers: "); 
+printf("Enter two numbers: ");
 scanf("%d %d", &x, &y); 
 printf("GCD of %d and %d = %d\n", x, y, gcd(x, y)); 
 return 0; 
