@@ -21,7 +21,7 @@ if(root->right){ arr[top] = 1; printCodes(root->right, arr, top+1); }
 if(!root->left && !root->right) { 
 printf("%c: ", root->c); 
 for(int i = 0; i < top; i++) printf("%d", arr[i]); 
-printf("\n"); 
+printf(" \n "); 
 } 
 } 
 // Build Huffman Tree 
