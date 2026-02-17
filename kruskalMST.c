@@ -66,7 +66,7 @@ int main() {
         graph[a][b] = graph[b][a] = 999;
     }
 
-    printf("Total cost of Minimum Spanning Tree: %d\n", cost);
+    printf("Total cost of Minimum Spanning : %d\n", cost);
 
     return 0;
 }
