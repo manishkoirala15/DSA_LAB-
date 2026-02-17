@@ -40,7 +40,7 @@ void displayGraph(struct Graph* graph) {
             printf("%d -> ", temp->vertex);
             temp = temp->next;
         }
-        printf("NULL\n");
+        printf("null\n");
     }
 }
 
