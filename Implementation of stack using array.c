@@ -113,7 +113,7 @@ printf("Enter value to push: ");
                 exit(0); 
  
             default: 
-                printf("\nInvalid choice! Try again.\n"); 
+                printf("Invalid choice! Try again.\n"); 
         } 
     } 
  
