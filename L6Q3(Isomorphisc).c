@@ -58,7 +58,7 @@ int main() {
     if (areIsomorphic(graph1, graph2, n)) {
         printf("Graphs are isomorphic.\n");
     } else {
-        printf("Graphs are not isomorphic.\n");
+        printf("Graphs are not isomorphic. ");
     }
 
     return 0;
