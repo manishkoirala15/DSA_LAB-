@@ -51,7 +51,7 @@ void circularEnqueue(int x) {
 
 void circularDequeue() {
     if (lc == -1) {
-        printf("Circular Queue is empty\n");
+        printf("Circular q is empty\n");
     } else {
         printf("Deleted %d from Circular Queue\n", cq[lc]);
         if (lc == rc) {
